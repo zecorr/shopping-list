@@ -1,7 +1,15 @@
-// long term project - create tags for category lists. Be able to organize list by different categories
+// long term project - create tags for category lists. 
+// Be able to organize list by different categories / tags
+// Be able to save lists
+// Be able to set timelines on when new items will appear (cyclical items)
 
 // Body
 const body = document.querySelector("body")
+// body CSS
+body.style.cssText = `
+    background-color: rgb(62, 101, 218);
+    `
+
 // Body Container Div
 const bodyContainer = document.createElement("div")
 body.appendChild(bodyContainer)
@@ -148,3 +156,6 @@ const addListItem = function (text){
 
 // Add item to shopping list
 addItemButton.addEventListener('click', createNewItem)
+
+// can attempt to change list items to paragraphs.
+// may help with wrapping text.
