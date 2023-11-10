@@ -67,7 +67,7 @@ input.style.cssText = `
     margin: 0 5px;
     `
 
-// "Add Item" Button 
+// Add Item 
 const itemList = []
 let divId = 0
 // Button element
